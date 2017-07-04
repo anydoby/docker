@@ -16,7 +16,7 @@
 #
 
 # Start from a Java image.
-FROM java:7
+FROM mlaccetti/docker-oracle-java8-ubuntu-16.04
 
 # Ignite version
 ENV GRIDGAIN_VERSION 7.9.3
